@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MedAI</title>
+        <title>MedAI | Home</title>
         <link rel="stylesheet" type="text/css" href="./stylesheets/landing-style.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
     </head>
 
     <body>
-        <div class=navbar>
-            <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#howItWorks">How it Works</a></li>
-                <li><a href="#prototype">Current Prototype</a></li>
-            </ul>
-        </div>
-        <div class="intro">
-            <h1 id="title">MedAI</h1>
-            <h3>The future of healthcare diagnosis</h2>
-        </div> 
-
-        <div class="about">
-            <h2>About MedAI</h1>
-            <p>MedAI is a multipurpose healthcare diagnosis application that uses a machine 
-                learning algorithm to accurately predict physical and mental health disorders.</p>
-        </div>
-    
-        <div class="howItWorks">
-            <h2>How it Works</h2>
-            <p>MedAI predicts physical and mental health disorders by analyzing pictures of skin 
-                conditions or facial expressions respectively. Our machine learning algorithm determines 
-                the severity of the case and whether medical treatment is necessary.</p>
-        </div>
-
-        <div class="prototype">
-                <h2>Current Prototype</h2>
-                <p>Our current prototype uses tens of thousands of photos of various conditions to train the 
-                    machine learning model. The algorithm then uses this model to analyze a photo taken from 
-                    your smartphone to predict the condition.
-                </p>
-                <p>Currently, MedAI is able to predict whether the patient is at risk of depression or skin cancer.</p>
+        <div class="head-banner">
+            <div class="navbar">
+                <div class="left">
+                    <div><img src="./images/logo-white.png" height="45px"></div>
+                </div>
+                <div class="right uppercase">
+                    <div><a class="current" href="./index.html">Home</a></div>
+                    <div><a href="./functionality.html">Functionality</a></div>
+                    <div><a href="./future-plans.html">Future Plans</a></div>
+                    <div><a class="border donate" href="./donate.html">Donate</a></div>
+                </div>
             </div>
+            
+            <div class="banner-overlay">
+                <div class="banner-text">
+                    <h2>The future of</h2>
+                    <h1 class="uppercase">Mental health diagnosis</h1>
+                    <div class="card-button uppercase">Learn more</div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="intro-text">
+            <h3>The future of mental health diagnosis is here.</h3>
+            <p>MedAI is a mental health diagnosis application that uses machine learning to accurately predict mental health disorders using facial analysis.</p>
+        </div>
+
+        <div class="card-container">
+            <div class="card-image"><img src="./images/coding-pic.jpeg" height="300px"></div>
+            <div class="functionality">
+                <h4 class="card-heading uppercase">Functionality</h4>
+                <p>Find out how the application uses machine learning to analyze facial expressions</p>
+                <button class="uppercase">Learn more</button>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card-image"><img src="./images/future-plans.jpg" height="300px"></div>
+            <div class="future-plans">
+                <h4 class="card-heading uppercase">Future Plans</h4>
+                <p>Discover how we plan to scale the application to other mental and physical health disorders</p>
+                <button class="uppercase">Find out how</button>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card-image"><img src="./images/donate.jpg" height="300px"></div>
+            <div class="donate">
+                <h4 class="card-heading uppercase">Current Prototype</h4>
+                <p>Help us improve the application by becoming a contributor to our cause.</p>
+                <button class="uppercase">Donate now</button>
+            </div>
+        </div>
 
     </body>
 </html>
