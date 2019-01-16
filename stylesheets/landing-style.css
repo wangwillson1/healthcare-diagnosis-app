@@ -249,7 +249,7 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-.footer-bottom {
+.footer .bottom {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -259,7 +259,7 @@ body {
     text-align: center;
 }
 
-.footer-bottom div {
+.footer .bottom div {
     margin-bottom: -5px;
     padding: 0 15px;
     font-size: 18px;
