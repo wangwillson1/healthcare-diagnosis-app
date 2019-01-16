@@ -1,3 +1,4 @@
+/* General styling that affects entire document */
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     text-transform: uppercase;
 }
 
+/* Styling that affects the top banner (image overlay) */
 .head-banner {
     width: 100%;
     background-image: url("../images/dot-projection-new.jpg");
@@ -20,6 +22,7 @@ body {
     overflow: hidden;
 }
 
+/* Navigation bar styling */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -69,6 +72,7 @@ body {
     padding: 12px 16px;
 }
 
+/* Styling for text within banner */
 .banner-overlay {
     display: flex;
     justify-content: center;
@@ -125,12 +129,14 @@ body {
     letter-spacing: 0.1em;
 }
 
+/* Styling for all text underneath banner */
 .cards {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 }
 
+/* Styling for intro text under banner (no image associated) */
 .intro {
     display: flex;
     flex-flow: wrap;
@@ -140,6 +146,7 @@ body {
     text-align: center;
 }
 
+/* Styling for text within cards */
 .intro h3 {
     font-size: 32px;
     color: rgb(48, 48, 48);
@@ -182,6 +189,7 @@ body {
     text-align: center;
 }
 
+/* Styling for cards in general */
 .card-container {
     display: flex;
     justify-content: space-between;
