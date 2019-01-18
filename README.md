@@ -3,6 +3,7 @@ Website for MedAI, a machine learning model that uses facial recognition and ana
 
 Planned website updates include:
 - Adding loading animations using Javascript
+- Scalability for mobile devices
 - Completing other pages
 - Using Flask and MySQL to create a dynamic website
 
