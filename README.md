@@ -5,3 +5,5 @@ Planned website updates include:
 - Adding loading animations using Javascript
 - Completing other pages
 - Using Flask and MySQL to create a dynamic website
+
+Current version of website: https://wangwillson1.github.io/medai-website/
